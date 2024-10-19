@@ -85,7 +85,7 @@ def get_weather():
 
     
     #weather
-    apikey="3eb9436e80e85d6cb059e60a7bbda030"
+    apikey=""
     baseurl= f"https://api.openweathermap.org/data/2.5/forecast?q="
     completeurl= baseurl+city+"&appid="+apikey
     res = requests.get(completeurl)
