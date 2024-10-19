@@ -61,7 +61,7 @@ font4 = ('poppins', 27, 'bold')
 
 def get_weather():
     city= searchfield.get()
-    key = 'bb727b156d604756b81fd7835fde47c0'
+    key = ''
     geocoder = OpenCageGeocode(key)
     query = city
     results = geocoder.geocode(query)
